@@ -1,6 +1,7 @@
 
 
 ```{r setup, include=FALSE}
+library(rmarkdown)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
