@@ -2,6 +2,11 @@
 title: "Viridis Demo"
 output: html_document
 ---
+title: "Sample Document"
+output:
+  html_document:
+---
+
 
 ```{r include = FALSE}
 library(viridis)
