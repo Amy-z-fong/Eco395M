@@ -3,8 +3,7 @@ title: "Viridis Demo"
 output: html_document
 ---
 title: "Sample Document"
-output:
-  html_document:
+output: html_document
 ---
 
 
@@ -25,3 +24,5 @@ image(volcano, col = viridis(200))
 ```{r}
 image(volcano, col = viridis(200, option = "A"))
 ```
+
+render("1-example.md")
