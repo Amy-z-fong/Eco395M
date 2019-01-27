@@ -1,25 +1,30 @@
-
-
 ---
-title: "Sample Document"
-output: rmarkdown::github_document
+title: "test"
+author: "amy fong"
+date: "January 27, 2019"
+output: html_document
 ---
 
-
-```{r include = FALSE}
-library(viridis)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-The code below demonstrates two color palettes in the [viridis](https://github.com/sjmgarnier/viridis) package. Each plot displays a contour map of the Maunga Whau volcano in Auckland, New Zealand.
+## R Markdown
 
-## Viridis colors
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-```{r}
-image(volcano, col = viridis(200))
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
 ```
 
-## Magma colors
+## Including Plots
 
-```{r}
-image(volcano, col = viridis(200, option = "A"))
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
 ```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
