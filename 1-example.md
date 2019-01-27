@@ -1,9 +1,8 @@
 
-render("1-example.md")
 
 ---
 title: "Sample Document"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 
