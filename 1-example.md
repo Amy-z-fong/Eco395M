@@ -1,6 +1,6 @@
 ---
 title: test
-output: github_document
+output: html_document
 ---
 
 
